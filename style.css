@@ -46,12 +46,13 @@ img {
     padding: 1rem;
     margin: 40px 15px;
     border-radius: 20px !important;
-    
     background-color: var(--span-color) !important;
+    text-transform: uppercase;
 }
 .btn:hover{
     background-color: rgb(155, 133, 7) !important;
     color: var(--text-color);
+    transition: 0.6s ease-in-out;
 }
 
 .main{
@@ -72,11 +73,15 @@ img {
         border-radius:2rem;
         margin-top: 1.5rem;
         position: relative;
+        width: 350px !important;
        
 }  
 .button{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 
@@ -184,7 +189,7 @@ img {
   .input-group {  
     margin-left: 150px !important;
     padding: 10px 15px 10px 25px;
-    width: 100px;
+    width: 350px !important;
     
   }
 .search-location i {
