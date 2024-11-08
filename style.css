@@ -61,12 +61,12 @@ img {
 }
 .search-location i {
     position: absolute;
-    left: 16px;
-    top: 45px;
+    left: 490px;
+    top: 180px;
     transform: translateY(-50%);
     font-size: 20px;
     color: var(--span-color);
-    z-index: 1;
+   z-index: 1;
 }
 #city-input {  
         padding: 15px 20px 10px 45px;
@@ -194,22 +194,48 @@ img {
   }
 .search-location i {
   position: absolute;
-  left: 2.9rem;
-  top: 42px;
+  left: 14.4rem;
+  top: 180px;
   font-size: 20px;
   transform: translate(-50%);
   }
  
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .input-group {  
     margin-left: -9px !important;
     padding: 10px 15px 10px 25px;
-    width: 250px !important;
+    width: 150px !important;
     
   }
   .btn{
-    width: 100px !important;
+    width: 150px !important;
   }
+  .search-location i {
+    position: absolute;
+    left: 5rem;
+    top: 180px;
+    font-size: 20px;
+    transform: translate(-50%);
+    }
+
+    
+@media (max-width: 400px) {
+  .input-group {  
+    margin-left: -9px !important;
+    padding: 10px 15px 10px 25px;
+    width: 200px !important;
+    overflow: hidden;
+  }
+  .btn{
+    width: 150px !important;
+  }
+  .search-location i {
+    position: absolute;
+    left: 4.6rem;
+    top: 238px;
+    font-size: 20px;
+    transform: translate(-50%);
+    }
 }
